@@ -25,7 +25,7 @@ class CreateComicsTable extends Migration
             $table->float("price", 6, 2);
             $table->boolean("color")->default(false);
             $table->year("release");
-            $table->string("cover")->default("https://picsum.photos/200/300");
+            $table->string("cover")->default("https://via.placeholder.com/200x300");
             $table->timestamps();
         });
     }

@@ -1,0 +1,13 @@
+.comics-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.comics-wrapper .comics-cards {
+  width: 350px;
+  border: 1px solid black;
+  text-align: center;
+}
+
